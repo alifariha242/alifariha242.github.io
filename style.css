@@ -1,0 +1,122 @@
+body { 
+    margin: 0px;
+}
+/* Navigation Bar */
+nav ol { 
+    list-style-type: none;
+    margin: 0;
+
+    overflow: hidden;
+    background-color:white;
+    top: 0; 
+    width: 100%; 
+    display: flex; 
+    justify-content: space-between;
+} 
+
+li { 
+    float: left;
+}
+
+.li a {  
+    color: black; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+}
+
+
+li a:hover { 
+    background-color: #DDFDFE ;
+}
+/* Profile Section */ 
+.first { 
+    width: 25%; 
+    height: 25%;
+    border-radius: 50%;
+    display:inline-block;
+}
+/* Projects Section 
+.pockets  {
+    width: 25%; 
+    height: 25%;
+    border-radius: 25%;
+    display:inline-block;
+
+}
+*/
+#projects-section { 
+    background-color: #F5F5F5;
+    
+}
+
+h1 {
+    text-align: center;
+}
+.pockets { 
+
+    background-position:0% 0% ; 
+    background-repeat: no-repeat;
+    height:350px;
+    width: 350px;
+    min-height: auto;
+    min-width: auto; 
+    display: inline-block;
+    box-sizing: border-box;
+    
+
+} 
+
+.proj-description { 
+    background-position: 0% 0%;  
+    height: 412px;
+    width: 350px; 
+    padding: 20px 20px 20px 20px; 
+    min-height: 400px; 
+    min-width: auto; 
+    display:inline-block;
+    box-sizing: border-box; 
+    background-color:#E7CEE3 ;
+    
+
+
+}
+
+.proj-box { 
+    
+    height: 778px; 
+    width: 350px; 
+    margin: 20px 20px 20px 10px;
+    min-width: auto;
+    min-height: auto; 
+    display: flex; 
+    box-sizing: border-box;
+ 
+}
+ 
+.organizations{ 
+    width: 90px;
+    height: 90px;
+    display: flex; 
+}
+
+#row {
+    display: flex;
+}
+
+#column { 
+    flex: 33.33%;
+    padding: 10px;
+}
+
+/* Footer */
+footer { 
+    background-color: aliceblue;
+    bottom: 0%;
+    display: block;
+    height:200px;
+    width: 1440px;
+    padding: 8px 8px 8px 8px;
+    box-sizing: border-box;
+    background-position: 0% 0%;
+}
